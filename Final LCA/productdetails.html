@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="productdetails.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo">AJIO</div>
+            <nav>
+                <ul>
+                    <li><a href="womenpage.html">Women</a></li>
+                    <li><a href="homepage.html">Ajio</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="icons">
+                Login | Profile | Wishlist | Cart
+            </div>
+        </div>
+    </header>
+
+    <main class="product-details-container">
+        <div class="product-image">
+            <img src="https://senava.co.in/cdn/shop/files/CoupleRings.png?v=1720680862" alt="Couple Rings">
+        </div>
+        <div class="product-info">
+            <h1>Couple Rings</h1>
+            <p class="price">₹2099</p>
+            <p class="description">
+                Celebrate your love with these stunning couple rings crafted from premium materials. Perfect for anniversaries, engagements, or just to show you care.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="wishlist">Add to Wishlist</button>
+        </div>
+    </main>
+
+    <!-- Popup Modal -->
+    <div class="popup-overlay" id="popup" style="display: none;">
+        <div class="popup-content">
+            <h2>Customize Your Product</h2>
+            <label>Quantity:
+                <input type="number" id="quantity" min="1" value="1">
+            </label>
+            <label>Color:
+                <select id="color">
+                    <option value="Gold">Gold</option>
+                    <option value="Silver">Silver</option>
+                    <option value="Rose Gold">Rose Gold</option>
+                </select>
+            </label>
+            <button id="confirm-btn">Confirm</button>
+            <button id="cancel-btn">Cancel</button>
+        </div>
+    </div>
+
+    <footer>
+        
+    <footer>
+        <div class="footer-top">
+            <div>
+                <h4>Ajio</h4>
+                <ul>
+                    <li>Who We Are</li>
+                    <li>Join Our Team</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <ul>
+                    <li>Track Your Order</li>
+                    <li>FAQ</li>
+                    <li>Returns</li>
+                    <li>Payments</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Shop by</h4>
+                <ul>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Kids</li>
+                    <li>Indie</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Follow us</h4>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Payment methods: Net Banking, Visa, Cash on Delivery, Jio Money</p>
+        </div>
+    </footer>
+        <div class="footer-container">
+            <!-- Footer content stays the same -->
+        </div>
+    </footer>
+
+    <script src="productdetails.js"></script>
+</body>
+</html>
+
